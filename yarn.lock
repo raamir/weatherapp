@@ -4084,6 +4084,21 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
+gatsby-source-darksky@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-darksky/-/gatsby-source-darksky-1.2.0.tgz#b6edae391e1d6fea58395747dc355e5ecab6040a"
+  integrity sha512-+Ua+wKugbqGagvpIrrnKI1XiqWJ4cI2RLdaMhTGT14zJ18Jby7xd1rqViRHFPusuUzAo9rH530FBvArjhSussQ==
+  dependencies:
+    node-fetch "^2.3.0"
+    uuid "^3.3.2"
+
+gatsby-source-openweathermap@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-source-openweathermap/-/gatsby-source-openweathermap-1.0.5.tgz#32e88102790940b073191319452a5e8e019cdb8b"
+  integrity sha512-xgvvtFpMji5jxKGpAJpIXM1K9lwqAyAwgMf/tq4ymS4lG58jNRsErq8qUBDJiS9faI/zpvaDaiTF55S0SpO+BA==
+  dependencies:
+    node-fetch "^2.1.2"
+
 gatsby@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.4.tgz#a69ee6212d37326cb93238a5cf21d3237d7a6f16"
@@ -6115,6 +6130,11 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+node-fetch@^2.1.2, node-fetch@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
+  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
 
 node-forge@0.7.5:
   version "0.7.5"
